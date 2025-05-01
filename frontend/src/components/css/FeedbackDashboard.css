@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .feedback-dashboard {
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .filters label {
+    font-weight: bold;
+  }
+  
+  .filters select {
+    padding: 8px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .feedback-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .feedback-item {
+    background-color: #f9f9f9;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .category {
+    color: #007bff;
+    font-style: italic;
+  }
+  
+  .feedback-text {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .feedback-date {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .no-feedback {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #999;
+  }
+  
